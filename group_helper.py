@@ -148,11 +148,6 @@ Notes:
             mime="text/plain"
         )
 
-with col3:
-    if st.button("🎯 Go to Platform", type="primary"):
-        st.markdown(f'<meta http-equiv="refresh" content="0; url={platform_url}">', unsafe_allow_html=True)
-        st.success("Redirecting to platform...")
-
 # Footer
 st.markdown("---")
 st.caption("💡 Tip: Use this app to plan and track your group creation progress before submitting on the platform.")
