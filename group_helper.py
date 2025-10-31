@@ -22,18 +22,6 @@ This app helps you complete the group creation task:
 3. Submit the group work when completed
 """)
 
-# Main platform link
-st.header("🔗 Group Creation Platform")
-platform_url = "https://creategroup.streamlit.app"
-
-col1, col2 = st.columns([3, 1])
-with col1:
-    st.markdown(f"**Platform URL:** [{platform_url}]({platform_url})")
-with col2:
-    if st.button("🚀 Open Platform", type="primary"):
-        st.markdown(f'<meta http-equiv="refresh" content="0; url={platform_url}">', unsafe_allow_html=True)
-        st.success("Opening platform in new tab...")
-
 st.markdown("---")
 
 # Group planning section
